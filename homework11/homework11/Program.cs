@@ -26,7 +26,7 @@ namespace homework11
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.StackTrace);
             }
-            //Console.ReadKey();
+            Console.ReadKey();
 
         }
     }
