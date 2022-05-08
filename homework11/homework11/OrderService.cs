@@ -62,8 +62,7 @@ namespace homework11
                 }
             }
             catch (Exception e)
-            {
-                //TODO 需要更加错误类型返回不同错误信息
+            { 
                 throw new ApplicationException($"删除订单错误!");
             }
         }
@@ -147,7 +146,6 @@ namespace homework11
                     }
                     catch
                     {
-                        //ignore errors
                     }
                 });
             }
